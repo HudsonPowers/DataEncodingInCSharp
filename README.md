@@ -270,16 +270,16 @@ answer.
 
 1. What is the result of shifting the character `Z` by 3? (`'Z' + 3`)
 
-** ANSWER HERE **
+** Overflow **
 
 2. What is the result of shifting the character `F` by -5?
 
-** ANSWER HERE **
+** A **
 
 3. What is the result of shifting each character in the string `"Khoor#Zruog$`"
    by -3?
 
-** ANSWER HERE **
+** HELLO#WORLD **
 
 ### Tag your work
 
