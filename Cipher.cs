@@ -42,5 +42,20 @@ public class Cipher
         return newMessage;
     }
 
+    static void Main(string[] args)
+    {
+        Cipher cipher;
+
+        cipher = new Cipher(5);
+
+        string encrypted;
+        encrypted = cipher.Encrypt("rosebud");
+        Console.Writeline($"The encrypted message is: '{encrypted}'");
+
+        string decrypted;
+        decrypted = cipher.Decrypt(encrypted);
+        Console.WriteLine($"The decripted message is: '{decrypted}'");
+    }
+
 
 }
